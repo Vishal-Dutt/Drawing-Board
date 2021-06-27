@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <canvas id='paint'></canvas>
+        </div>
+
+        <div class="controls">
+            <input type="range" id="line" min="1.0" max="10.0" step="any" value="2.5" />
+            <button id="fill-board">Fill</button>
+            <button id="undo">Undo</button>
+            <button id="draw">Draw</button>
+            <button id="save">Save</button>
+            <button id="clear">Clear</button>
+        </div>
+        <div class="colors">
+            <div class="color" style="margin: 5px; background-color:rgb(0, 0, 0)"></div>
+            <div class="color" style="margin: 5px; background-color:rgb(255,255,255)"></div>
+            <div class="color" style="margin: 5px; background-color:rgb(255,59,48)"></div>
+            <div class="color" style="margin: 5px; background-color:rgb(255,149,0)"></div>
+            <div class="color" style="margin: 5px; background-color:rgb(255,204,0)"></div>
+            <div class="color" style="margin: 5px; background-color:rgb(76,217,100)"></div>
+            <div class="color" style="margin: 5px; background-color:rgb(90,200,250)"></div>
+            <div class="color" style="margin: 5px; background-color:rgb(0,122,255)"></div>
+            <div class="color" style="margin: 5px; background-color:rgb(88,86,214)"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
